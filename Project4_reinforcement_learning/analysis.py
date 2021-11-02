@@ -21,48 +21,50 @@
 
 def question2():
     answerDiscount = 0.9
-    answerNoise = 0.2
-    return answerDiscount, answerNoise
+    noise = 0.0
+    return answerDiscount, noise
 
 def question3a():
-    answerDiscount = None
-    answerNoise = None
-    answerLivingReward = None
-    return answerDiscount, answerNoise, answerLivingReward
+    discount = 0.1
+    noise = 0.0
+    living_reward = 0
+    return discount, noise, living_reward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3b():
-    answerDiscount = None
-    answerNoise = None
-    answerLivingReward = None
-    return answerDiscount, answerNoise, answerLivingReward
+    living_reward = -1
+    discount = 0.5
+    noise = 0.3
+    return discount, noise, living_reward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3c():
-    answerDiscount = None
-    answerNoise = None
-    answerLivingReward = None
-    return answerDiscount, answerNoise, answerLivingReward
+    discount = 0.9
+    noise = 0
+    living_reward = 0
+    return discount, noise, living_reward
     # If not possible, return 'NOT POSSIBLE'
 
 def question3d():
-    answerDiscount = None
-    answerNoise = None
-    answerLivingReward = None
-    return answerDiscount, answerNoise, answerLivingReward
+    discount = 0.9
+    noise = 0.3
+    living_reward = 0
+    return discount, noise, living_reward
     # If not possible, return 'NOT POSSIBLE'
 
+
 def question3e():
-    answerDiscount = None
-    answerNoise = None
-    answerLivingReward = None
-    return answerDiscount, answerNoise, answerLivingReward
+    discount = 1
+    noise = 0
+    living_reward = 1
+    return discount, noise, living_reward
     # If not possible, return 'NOT POSSIBLE'
+
 
 def question8():
     answerEpsilon = None
     answerLearningRate = None
-    return answerEpsilon, answerLearningRate
+    return 'NOT POSSIBLE'
     # If not possible, return 'NOT POSSIBLE'
 
 if __name__ == '__main__':
